@@ -9,22 +9,22 @@ Utility
 
 It shows what this script can do.
 
-In insert mode, when you type `<tab>` (default value of g:completekey) after function name with a `(` , function parameters will be append behind, use `<tab>` key again to switch between parameters.
+In insert mode, when you type `<F2>` (default value of g:completekey) after function name with a `(` , function parameters will be append behind, use `<F2>` key again to switch between parameters.
 
 This key is also used to complete code snippets.
 
 #### Example:
-press `<tab>` after function name and `(`
+press `<F2>` after function name and `(`
 
-    foo ( <tab>
+    foo ( <F2>
   
 becomes:
 
     foo ( `<first param>`,`<second param>` )
   
-press `<tab>` after code template
+press `<F2>` after code template
 
-    if <tab>
+    if <F2>
   
 becomes:
 
