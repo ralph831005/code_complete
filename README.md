@@ -35,12 +35,10 @@ becomes:
 
 ### Code Snippets
 
-Custom snippet files can be used. The default file is
-[my_snippets.vim](plugin/my_snippets.vim) and is loaded by default. To add
-more custom snippet files (see [my_snippets.vim](plugin/my_snippets.vim) for
-the structure), use one of the following variables in your vimrc:
+Custom snippet files can be used.  
+I've deleted the author's my_snippets.vim and define all snippets in (ft)_snippets.vim.  
 
 ``` viml
-let g:user_defined_snippets = "snippets/custom_snippets.vim"
-let g:user_defined_snippets = ["snippets/c_snippets.vim", "snippets/js_snippets.vim"]
+let g:user_defined_snippets = ["snippets/c_snippets.vim", "snippets/cpp_snippets.vim", "snippets/common_snippets.vim", "snippets/py_snippets.vim"]
+source ~/.vim/snippets/code_complete.vim
 ```
