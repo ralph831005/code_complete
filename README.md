@@ -40,5 +40,4 @@ I've deleted the author's my_snippets.vim and define all snippets in (ft)_snippe
 
 ``` viml
 let g:user_defined_snippets = ["snippets/c_snippets.vim", "snippets/cpp_snippets.vim", "snippets/common_snippets.vim", "snippets/py_snippets.vim"]
-source ~/.vim/snippets/code_complete.vim
 ```
